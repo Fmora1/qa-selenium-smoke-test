@@ -1,0 +1,20 @@
+__pycache__/
+.env
+.venv/
+venv/
+screenshots/
+reports/
+*.log
+*.png
+.idea/
+.vscode/
+git add .
+git commit -m "Finalize README, add CI workflow"
+git push origin main
+git remote add origin https://github.com/<username>/qa-selenium-smoke-test.git
+git branch -M main
+git push -u origin main
+cd C:\Users\Frank\PycharmProjects\qa-selenium-smoke-test
+git init
+git add .
+git commit -m "Initial commit: QA Selenium smoke test"
